@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1059</width>
+    <height>824</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Browser</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+	background: rgb(59, 59, 59)
+}</string>
+   </property>
+   <widget class="QLineEdit" name="urlBar">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>981</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	background: rgb(0, 0, 0);
+	border: 1px solid #00000;
+	border-radius: 8px;
+	padding: 2px;
+	color: #FFF
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="homeButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background: rgb(0, 0, 0);
+	border: 2px solid #00000;
+	border-radius: 8px;
+	padding: 2px
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../Travis's Files/Downloads/house-128.png</normaloff>../../../../Travis's Files/Downloads/house-128.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background: rgb(0, 0, 0);
+	border: 2px solid #00000;
+	border-radius: 8px;
+	padding: 2px
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../Travis's Files/Downloads/arrow-118-24.png</normaloff>../../../../Travis's Files/Downloads/arrow-118-24.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background: rgb(0, 0, 0);
+	border: 2px solid #00000;
+	border-radius: 8px;
+	padding: 2px
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../Travis's Files/Downloads/arrow-18-24.png</normaloff>../../../../Travis's Files/Downloads/arrow-18-24.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background: rgb(0, 0, 0);
+	border: 2px solid #00000;
+	border-radius: 8px;
+	padding: 2px
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../Travis's Files/Downloads/refresh-2-24.png</normaloff>../../../../Travis's Files/Downloads/refresh-2-24.png</iconset>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>1041</width>
+      <height>771</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
